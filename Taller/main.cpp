@@ -40,31 +40,31 @@ int main()
      // Se imprime la matriz X
      std::cout <<"\n Matriz resultante a-b\n"<< X << std::endl;
 
-     std::cout <<"***************************EJERCICIO B - PUNTO 2 ******************************* "<< std::endl;
-         //Se declaran los tipos de datos a usar
-          Eigen::Matrix2f A2, B2, X2;
+  std::cout <<"***************************EJERCICIO B - PUNTO 2 ******************************* "<< std::endl;
+     //Se declaran los tipos de datos a usar
+      Eigen::Matrix2f A2, B2, X2;
 
-         //Se inicializan manualmente las matrices A y B mencionadas
-          A2 << 0, -1, 2, 1;
-          B2 << 1, 2, 3, 4;
+     //Se inicializan manualmente las matrices A y B mencionadas
+      A2 << 0, -1, 2, 1;
+      B2 << 1, 2, 3, 4;
 
-         //Se imprimen las matrices iniciales
-          std::cout <<"  Matriz A\n"<< A2 << std::endl;
-          std::cout <<"\n Matriz B\n"<< B2 << std::endl;
+     //Se imprimen las matrices iniciales
+      std::cout <<"  Matriz A\n"<< A2 << std::endl;
+      std::cout <<"\n Matriz B\n"<< B2 << std::endl;
 
-         //Se requiere que la matriz B sea igual a si misma multiplicada por la matriz A y por 3
-          //Se requiere que la matriz A sea igual a si misma multiplicada por 4
-          B2 = B2 * A2 * 3;
-          A2 = 4 * A2;
+     //Se requiere que la matriz B sea igual a si misma multiplicada por la matriz A y por 3
+      //Se requiere que la matriz A sea igual a si misma multiplicada por 4
+      B2 = B2 * A2 * 3;
+      A2 = 4 * A2;
 
-          //Se requiere ver las matrices luego de las operaciones
-          std::cout <<"  Matriz A\n"<< A2 << std::endl;
-          std::cout <<"\n Matriz B\n"<< B2 << std::endl;
+      //Se requiere ver las matrices luego de las operaciones
+      std::cout <<"  Matriz A\n"<< A2 << std::endl;
+      std::cout <<"\n Matriz B\n"<< B2 << std::endl;
 
-         // Se requiere restar B - A y dividirlo en dos
-          X2 =( B2 - A2 )/ 2;
+     // Se requiere restar B - A y dividirlo en dos
+      X2 =( B2 - A2 )/ 2;
 
-          std::cout <<"\n Matriz resultante\n"<< X2 << std::endl;
+      std::cout <<"\n Matriz resultante\n"<< X2 << std::endl;
 
   std::cout <<"***************************EJERCICIO D - PUNTO 3 ******************************* "<< std::endl;
       //Se declaran los tipos de datos a usar
@@ -84,30 +84,30 @@ int main()
 
        std::cout <<"\n Matriz resultante\n"<< X3 << std::endl;
 
-   std::cout <<"***************************EJERCICIO E - PUNTO 4 ******************************* \n"<< std::endl;
-       //Se declaran los tipos de datos a usar
-       MiMatriz2x3i A4;
-       MiVMatriz3x2i B4;
-       Eigen::Matrix2i C4;
-       Eigen::MatrixXi X4;
+  std::cout <<"***************************EJERCICIO E - PUNTO 4 ******************************* \n"<< std::endl;
+   //Se declaran los tipos de datos a usar
+   MiMatriz2x3i A4;
+   MiVMatriz3x2i B4;
+   Eigen::Matrix2i C4;
+   Eigen::MatrixXi X4;
 
-       //Se inicializan manualmente las matrices A, B y C mencionadas
-        A4 << 3, 0, -1, 0, 2, 1;
-        B4 << 1, 2, 1, 0, 0, 6;
-        C4 <<-2, 0, -2, -5;
+   //Se inicializan manualmente las matrices A, B y C mencionadas
+    A4 << 3, 0, -1, 0, 2, 1;
+    B4 << 1, 2, 1, 0, 0, 6;
+    C4 <<-2, 0, -2, -5;
 
-       //Se imprimen las matrices iniciales
-        std::cout <<" Matriz A\n"<< A4 << std::endl;
-        std::cout <<"\n Matriz B\n"<< B4 << std::endl;
-        std::cout <<"\n Matriz C\n"<< C4 << std::endl;
+   //Se imprimen las matrices iniciales
+    std::cout <<" Matriz A\n"<< A4 << std::endl;
+    std::cout <<"\n Matriz B\n"<< B4 << std::endl;
+    std::cout <<"\n Matriz C\n"<< C4 << std::endl;
 
-        // Se hace la operación indicada 2(AB+C)
-        X4 = A4 * B4;
-        X4 = X4 + C4;
-        X4 = X4.array() * 2;
+    // Se hace la operación indicada 2(AB+C)
+    X4 = A4 * B4;
+    X4 = X4 + C4;
+    X4 = X4.array() * 2;
 
-        // Se imprime la matriz resultante
-        std::cout <<"\n Matriz Resultante\n"<< X4 << std::endl;
+    // Se imprime la matriz resultante
+    std::cout <<"\n Matriz Resultante\n"<< X4 << std::endl;
 
   std::cout <<"***************************EJERCICIO F - PUNTO 5 ******************************* \n"<< std::endl;
     //Se declaran los tipos de datos a usar
@@ -185,20 +185,20 @@ int main()
         // Se imprime la matriz resultante
         std::cout <<"\n Matriz Resultante\n"<< X8 << std::endl;
 
-    std::cout <<"***************************EJERCICIO J - PUNTO 9 ******************************* \n"<< std::endl;
-        //Se declaran los tipos de datos a usar
-        Eigen::Matrix2i A9, X9;
-        //Se inicializan manualmente las matriz A mencionada
-         A9 << 4, 2, -1, 0;
+  std::cout <<"***************************EJERCICIO J - PUNTO 9 ******************************* \n"<< std::endl;
+    //Se declaran los tipos de datos a usar
+    Eigen::Matrix2i A9, X9;
+    //Se inicializan manualmente las matriz A mencionada
+     A9 << 4, 2, -1, 0;
 
-        //Se imprime la matriz inicial
-         std::cout <<" Matriz A\n"<< A9 << std::endl;
+    //Se imprime la matriz inicial
+     std::cout <<" Matriz A\n"<< A9 << std::endl;
 
-         // Se hace la operación indicada A³
-         X9 = A9 * A9 * A9;
+     // Se hace la operación indicada A³
+     X9 = A9 * A9 * A9;
 
-         // Se imprime la matriz resultante
-         std::cout <<"\n Matriz Resultante\n"<< X9 << std::endl;
+     // Se imprime la matriz resultante
+     std::cout <<"\n Matriz Resultante\n"<< X9 << std::endl;
 
   std::cout <<"***************************EJERCICIO K - PUNTO 10 ******************************* \n"<< std::endl;
      //Se declaran los tipos de datos a usar
