@@ -3,7 +3,7 @@
 
 /*Tipo de dato Matriz entera de 2x3*/
 typedef Eigen::Matrix<int, 2, 3> MiMatriz2x3i;
-/*Tipo de dato Matriz entera de 3x2*/
+/*Tipo de dato Matriz entera de 3x2 */
 typedef Eigen::Matrix<int, 3, 2> MiVMatriz3x2i;
 /*Tipo de dato Matriz doble de 2x3*/
 typedef Eigen::Matrix<double, 2, 3> MiMatriz2x3d;
