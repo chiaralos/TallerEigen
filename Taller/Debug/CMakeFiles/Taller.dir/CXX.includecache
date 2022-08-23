@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chiara/Escritorio/Repositorio/TallerEigen/Taller/main.cpp
+iostream
+-
+eigen3/Eigen/Dense
+-
+
