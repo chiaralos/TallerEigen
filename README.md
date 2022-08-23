@@ -1,2 +1,5 @@
 # TallerEigen
-Se presenta la solución de 15 de los ejercicios de la página https://www.math-exercises.com/matrices/matrix-equations. Implementados en lenguaje C++.
+* Autor: Chiara Vivian Valenzuela Losada
+* Tema: Taller de ejercicios usando Eigen
+
+Se presenta la solución a 15 de los ejercicios propuestos en la página web https://www.math-exercises.com/matrices/matrix-equations.
