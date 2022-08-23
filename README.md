@@ -10,4 +10,4 @@ Para usar el código, siga las instrucciones a continuación:
   3. Abra Qt Creator.
   4. Selecciones "Open".
   5. Seleccione la carpeta en que se encuentra el proyecto.
-  6. Ya dispone del código a su disposición.
+  6. Ya dispone del código para edición y ejecución.
